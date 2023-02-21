@@ -1,0 +1,60 @@
+.ShoppingList {
+    position: relative;
+    width: 500px;
+    height: 682px;
+    margin: 7rem 10rem 0 0;
+    background-image: url(../src/img/paper2.PNG);
+    background-size: cover;
+    transform: rotate(10deg);
+    overflow: visible;
+}
+
+.ShoppingList h2 {
+    text-align: center;
+    margin: -05px 0px 0px 0px
+}
+
+.ShoppingList ul {
+    margin-top: -5px;
+    text-align: start;
+    list-style-type: none;
+}
+
+.ShoppingList-Form-Container {
+    background-color: rgba(248, 239, 172, 0.532);
+    position: absolute;
+    padding: 5px 20px;
+    text-align: end;
+    left: 20%;
+    bottom: 10%
+}
+
+.ShoppingList-Form-Container input {
+    font-family: Fasthand;
+    font-size: 29px;
+    background-color: #ffffffa8;
+    border-color: transparent;
+    margin-top: 5%;
+}
+
+
+.ShoppingList-Form-Container button {
+    width: 100px;
+    height: 100px;
+    font-family: Fasthand;
+    font-size: 30px;
+    background-color: #ffffffa8;
+    border-color: transparent;
+    border-radius: 50px;
+    margin-right: 50%;
+    transform: translate(50%);
+    margin: 05% 50% 02% 0%;
+    line-height: 100%;
+}
+.ShoppingList-Form-Container button:hover {
+cursor: pointer;
+}
+
+
+
+
