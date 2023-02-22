@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-Shopping-List/static/css/main.6e23e3d8.css",
+    "main.js": "/React-Shopping-List/static/js/main.2a5821e8.js",
+    "static/js/787.b7d63c9a.chunk.js": "/React-Shopping-List/static/js/787.b7d63c9a.chunk.js",
+    "static/media/gaelle-marcel-g917EoHF-Ls-unsplash.jpg": "/React-Shopping-List/static/media/gaelle-marcel-g917EoHF-Ls-unsplash.0e315add4b676690200b.jpg",
+    "static/media/paper2.PNG": "/React-Shopping-List/static/media/paper2.261a8559190c9beeb745.PNG",
+    "static/media/Fasthand-Regular.ttf": "/React-Shopping-List/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
+    "index.html": "/React-Shopping-List/index.html",
+    "main.6e23e3d8.css.map": "/React-Shopping-List/static/css/main.6e23e3d8.css.map",
+    "main.2a5821e8.js.map": "/React-Shopping-List/static/js/main.2a5821e8.js.map",
+    "787.b7d63c9a.chunk.js.map": "/React-Shopping-List/static/js/787.b7d63c9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e23e3d8.css",
+    "static/js/main.2a5821e8.js"
+  ]
+}
