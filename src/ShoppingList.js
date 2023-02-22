@@ -31,7 +31,7 @@ class ShoppingList extends Component {
     }
     render() {
         return (
-            <div>
+            <div className='ShoppingList-Container'>
                 <div className='ShoppingList'>
                     <h2>Shopping List</h2>
                     {this.renderItems()}

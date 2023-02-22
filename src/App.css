@@ -4,13 +4,6 @@
 }
 
 .App {
-  height: 100vh;
-  display: flex;
-  align-items: start;
-  justify-content: end;
   font-family: Fasthand;
   font-size: 33px;
-  background: url("../src/img/gaelle-marcel-g917EoHF-Ls-unsplash.jpg");
-  background-position: center center;
-  background-size: cover;
 }

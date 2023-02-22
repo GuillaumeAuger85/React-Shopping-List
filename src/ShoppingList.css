@@ -1,8 +1,17 @@
-.ShoppingList {
+.ShoppingList-Container {
     position: relative;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    background-image: url("../src/img/gaelle-marcel-g917EoHF-Ls-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.ShoppingList {
     width: 500px;
     height: 682px;
-    margin: 7rem 10rem 0 0;
+    margin: 7% 0% 0% 15%;
     background-image: url(../src/img/paper2.PNG);
     background-size: cover;
     transform: rotate(10deg);
@@ -22,11 +31,11 @@
 
 .ShoppingList-Form-Container {
     background-color: rgba(248, 239, 172, 0.532);
-    position: absolute;
-    padding: 5px 20px;
+    height: 250px;
+    width: 480px;
+    margin: 36rem 0 0 12rem;
+    padding: 20px 20px;
     text-align: end;
-    left: 20%;
-    bottom: 10%
 }
 
 .ShoppingList-Form-Container input {
@@ -34,7 +43,7 @@
     font-size: 29px;
     background-color: #ffffffa8;
     border-color: transparent;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 
@@ -46,15 +55,42 @@
     background-color: #ffffffa8;
     border-color: transparent;
     border-radius: 50px;
-    margin-right: 50%;
-    transform: translate(50%);
-    margin: 05% 50% 02% 0%;
+    margin: 2% 50% 0 0%;
+    transform:translate(50%);
     line-height: 100%;
 }
+
 .ShoppingList-Form-Container button:hover {
-cursor: pointer;
+    cursor: pointer;
+}
+@media(max-width:750px){
+    .ShoppingList{
+        transform: scale(0.9);
+        margin: 0 0 0 0;
+    }
+    .ShoppingList-Form-Container{
+        text-align: center;
+        margin-left:0;
+        transform: scale(0.9); 
+        height:80%; 
+    }
+    .ShoppingList-Form-Container label{
+        display: block;
+    }
+    .ShoppingList-Form-Container button{
+        transform: none;
+        margin: 3% 0 0 0; 
+    }
 }
 
 
+@media(max-width:1425px){
+    .ShoppingList-Container{
+       height: auto;
+    }
+    .ShoppingList-Form-Container{
+        margin-top: 2rem;
+    }
+}
 
 
