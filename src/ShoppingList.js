@@ -22,7 +22,7 @@ class ShoppingList extends Component {
         return (
             <ul>
                 {this.state.items.map(item => (
-                    <li key={item.id}>
+                    <li key={item.id} >
                         {item.name} : {item.qty}
                     </li>
                 ))}

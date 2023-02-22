@@ -14,8 +14,11 @@
     margin: 7% 0% 0% 15%;
     background-image: url(../src/img/paper2.PNG);
     background-size: cover;
+    overflow: scroll;
     transform: rotate(10deg);
-    overflow: visible;
+}
+.ShoppingList li:nth-last-of-type(n+1){
+    margin-top: 0.1rem;
 }
 
 .ShoppingList h2 {
