@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# React-Shopping-List
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+**REACT Forms Exercise: Create a REACT Shopping List!**
+
+## Try it [here](https://GuillaumeAuger85.github.io/React-Shopping-List)!
+
+**Screenshot:**
+
+![ShoppingList](https://user-images.githubusercontent.com/49698792/220735064-5b804a8b-f359-40d8-9bce-d221fc50bbd5.PNG)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
